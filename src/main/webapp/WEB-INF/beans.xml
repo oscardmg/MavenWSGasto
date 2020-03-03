@@ -9,12 +9,6 @@
         <import resource="classpath:META-INF/cxf/cxf.xml" />
 
         <jaxws:endpoint 
-          id="helloWorld" 
-          implementor="com.test.gastos.HelloWorldImpl" 
-          address="/HelloWorld" />
-          
-          
-         <jaxws:endpoint 
           id="gasto" 
           implementor="com.test.gastos.service.GastoServiceImpl" 
           address="/Gasto" />
